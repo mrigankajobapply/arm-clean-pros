@@ -15,9 +15,9 @@ const Header = () => {
         <Link to="/" className="flex items-center">
           {/* Mobile Logo: Shows on screens smaller than 'md' */}
           <img
-            src="../../public/Final ARMLOGO.png"
+            src="/Final ARMLOGO.png"
             alt="ARM Solutions Logo"
-            className="h-8 w-auto md:hidden" // Adjust height (h-8) as needed
+            className="h-10 w-auto md:hidden" // Adjust height (h-8) as needed
           />
 
           {/* Desktop Text: Hidden on screens smaller than 'md' */}
