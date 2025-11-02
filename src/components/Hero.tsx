@@ -23,25 +23,68 @@ const Hero = () => {
             Professional Septic & Water Tank Cleaning Services You Can Trust
           </h1>
           <p className="text-xl text-primary-foreground/90 mb-8 max-w-2xl">
-            Advanced mechanized cleaning for residential and commercial properties. Licensed, insured, and available 24/7 for emergency services.
+            Advanced mechanized cleaning for residential and commercial
+            properties. Licensed, insured, and available 24/7 for emergency
+            services.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4">
+          <div className="flex gap-4 flex-wrap">
+            {/* Contact Button - always visible */}
             <Link to="/contact">
-              <Button variant="accent" size="lg" className="text-lg px-8 py-6 w-full sm:w-auto">
+              <Button
+                variant="accent"
+                size="lg"
+                className="text-lg px-8 py-6 w-full sm:w-auto"
+              >
                 Get Free Quote
               </Button>
             </Link>
+
+            {/* Call Now Button */}
             <a href="tel:8240271126">
-              <Button variant="outline" size="lg" className="text-lg px-8 py-6 w-full sm:w-auto bg-primary-foreground/10 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary backdrop-blur-sm">
+              {/* Desktop version */}
+              <Button
+                variant="outline"
+                size="lg"
+                className="hidden sm:flex text-lg px-8 py-6 w-full sm:w-auto bg-primary-foreground/10 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary backdrop-blur-sm"
+              >
                 <Phone className="mr-2 h-5 w-5" />
                 Call Now
               </Button>
+
+              {/* Mobile version (icon only) */}
+              {/* <Button
+                variant="outline"
+                size="icon"
+                className="flex sm:hidden bg-primary-foreground/10 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary backdrop-blur-sm"
+              >
+                <Phone className="h-5 w-5" />
+              </Button> */}
             </a>
-            <a href="https://wa.me/8240271126" target="_blank" rel="noopener noreferrer">
-              <Button variant="outline" size="lg" className="text-lg px-8 py-6 w-full sm:w-auto bg-primary-foreground/10 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary backdrop-blur-sm">
+
+            {/* WhatsApp Button */}
+            <a
+              href="https://wa.me/8240271126"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {/* Desktop version */}
+              <Button
+                variant="outline"
+                size="lg"
+                className="hidden sm:flex text-lg px-8 py-6 w-full sm:w-auto bg-primary-foreground/10 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary backdrop-blur-sm"
+              >
                 <MessageSquare className="mr-2 h-5 w-5" />
                 WhatsApp
               </Button>
+
+              {/* Mobile version (icon only) */}
+              {/* <Button
+                variant="outline"
+                size="icon"
+                className="flex sm:hidden bg-primary-foreground/10 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary backdrop-blur-sm"
+              >
+                <MessageSquare className="h-5 w-5" />
+              </Button> */}
             </a>
           </div>
         </div>
@@ -53,19 +96,27 @@ const Hero = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
             <div>
               <div className="text-2xl font-bold text-primary">500+</div>
-              <div className="text-sm text-muted-foreground">Happy Customers</div>
+              <div className="text-sm text-muted-foreground">
+                Happy Customers
+              </div>
             </div>
             <div>
               <div className="text-2xl font-bold text-primary">3+</div>
-              <div className="text-sm text-muted-foreground">Years Experience</div>
+              <div className="text-sm text-muted-foreground">
+                Years Experience
+              </div>
             </div>
             <div>
               <div className="text-2xl font-bold text-primary">24/7</div>
-              <div className="text-sm text-muted-foreground">Emergency Service</div>
+              <div className="text-sm text-muted-foreground">
+                Emergency Service
+              </div>
             </div>
             <div>
               <div className="text-2xl font-bold text-primary">100%</div>
-              <div className="text-sm text-muted-foreground">Licensed & Insured</div>
+              <div className="text-sm text-muted-foreground">
+                Licensed & Insured
+              </div>
             </div>
           </div>
         </div>
