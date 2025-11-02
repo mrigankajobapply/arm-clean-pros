@@ -12,8 +12,16 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
-        <Link to="/" className="flex items-center space-x-2">
-          <div className="text-2xl font-bold text-primary">
+        <Link to="/" className="flex items-center">
+          {/* Mobile Logo: Shows on screens smaller than 'md' */}
+          <img
+            src="../../public/Final ARMLOGO.png"
+            alt="ARM Solutions Logo"
+            className="h-8 w-auto md:hidden" // Adjust height (h-8) as needed
+          />
+
+          {/* Desktop Text: Hidden on screens smaller than 'md' */}
+          <div className="hidden md:block text-2xl font-bold text-primary">
             A R M <span className="text-accent">Solutions</span>
           </div>
         </Link>
@@ -108,9 +116,9 @@ const Header = () => {
             >
               Contact
             </Link>
-            <a href="tel:+1234567890" className="flex items-center space-x-2 text-primary">
+            <a href="tel:8240271126" className="flex items-center space-x-2 text-primary">
               <Phone className="h-4 w-4" />
-              <span className="font-semibold">Call: (123) 456-7890</span>
+              <span className="font-semibold">Call: +91 8240271126</span>
             </a>
             <Link to="/contact" onClick={() => setMobileMenuOpen(false)}>
               <Button variant="hero" size="lg" className="w-full">

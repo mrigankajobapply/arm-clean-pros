@@ -5,7 +5,7 @@ import heroImage from "@/assets/hero-image.jpg";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-[600px] flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[690px] flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
         <img
@@ -18,11 +18,11 @@ const Hero = () => {
 
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-3xl">
+        <div className="lg:max-w-4xl md:max-w-xl sm:max-w-lg -mt-32">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-6 leading-tight">
             Professional Septic & Water Tank Cleaning Services You Can Trust
           </h1>
-          <p className="text-xl text-primary-foreground/90 mb-8 max-w-2xl">
+          <p className="text-xl text-primary-foreground/90 mb-12 max-w-2xl">
             Advanced mechanized cleaning for residential and commercial
             properties. Licensed, insured, and available 24/7 for emergency
             services.
@@ -52,13 +52,13 @@ const Hero = () => {
               </Button>
 
               {/* Mobile version (icon only) */}
-              {/* <Button
+              <Button
                 variant="outline"
                 size="icon"
                 className="flex sm:hidden bg-primary-foreground/10 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary backdrop-blur-sm"
               >
                 <Phone className="h-5 w-5" />
-              </Button> */}
+              </Button>
             </a>
 
             {/* WhatsApp Button */}
@@ -78,13 +78,13 @@ const Hero = () => {
               </Button>
 
               {/* Mobile version (icon only) */}
-              {/* <Button
+              <Button
                 variant="outline"
                 size="icon"
                 className="flex sm:hidden bg-primary-foreground/10 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary backdrop-blur-sm"
               >
                 <MessageSquare className="h-5 w-5" />
-              </Button> */}
+              </Button>
             </a>
           </div>
         </div>
