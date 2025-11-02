@@ -31,13 +31,13 @@ const Hero = () => {
                 Get Free Quote
               </Button>
             </Link>
-            <a href="tel:+1234567890">
+            <a href="tel:8240271126">
               <Button variant="outline" size="lg" className="text-lg px-8 py-6 w-full sm:w-auto bg-primary-foreground/10 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary backdrop-blur-sm">
                 <Phone className="mr-2 h-5 w-5" />
                 Call Now
               </Button>
             </a>
-            <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/8240271126" target="_blank" rel="noopener noreferrer">
               <Button variant="outline" size="lg" className="text-lg px-8 py-6 w-full sm:w-auto bg-primary-foreground/10 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary backdrop-blur-sm">
                 <MessageSquare className="mr-2 h-5 w-5" />
                 WhatsApp
@@ -56,7 +56,7 @@ const Hero = () => {
               <div className="text-sm text-muted-foreground">Happy Customers</div>
             </div>
             <div>
-              <div className="text-2xl font-bold text-primary">15+</div>
+              <div className="text-2xl font-bold text-primary">3+</div>
               <div className="text-sm text-muted-foreground">Years Experience</div>
             </div>
             <div>

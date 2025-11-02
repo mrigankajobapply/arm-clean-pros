@@ -68,8 +68,8 @@ const Contact = () => {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <a href="tel:+1234567890" className="text-lg text-primary hover:underline font-semibold">
-                    (123) 456-7890
+                  <a href="tel:8240271126" className="text-lg text-primary hover:underline font-semibold">
+                    +91 8240271126
                   </a>
                   <p className="text-sm text-muted-foreground mt-2">
                     Available 24/7 for emergencies
@@ -86,7 +86,7 @@ const Contact = () => {
                 </CardHeader>
                 <CardContent>
                   <a
-                    href="https://wa.me/1234567890"
+                    href="https://wa.me/8240271126"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-lg text-primary hover:underline font-semibold"
@@ -107,8 +107,8 @@ const Contact = () => {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <a href="mailto:info@armsolutions.com" className="text-lg text-primary hover:underline font-semibold">
-                    info@armsolutions.com
+                  <a href="mailto:armsolutions.in@gmail.com" className="text-lg text-primary hover:underline font-semibold">
+                    armsolutions.in@gmail.com
                   </a>
                   <p className="text-sm text-muted-foreground mt-2">
                     We'll respond within 24 hours
@@ -125,8 +125,7 @@ const Contact = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    123 Service Road<br />
-                    Your City, ST 12345
+                    No 48,  C 302, Basant Bahar Apartment, Near Revital Nursing Home, R K Ghosal Road, Kasba-700042 (Near Revital Nursing Home)
                   </p>
                 </CardContent>
               </Card>
@@ -265,10 +264,10 @@ const Contact = () => {
           <p className="text-xl mb-6">
             We're available 24/7 for urgent tank cleaning needs.
           </p>
-          <a href="tel:+1234567890">
+          <a href="tel:8240271126">
             <Button variant="outline" size="lg" className="bg-accent-foreground/10 border-accent-foreground text-accent-foreground hover:bg-accent-foreground hover:text-accent">
               <Phone className="mr-2 h-5 w-5" />
-              Call Emergency Line: (123) 456-7890
+              Call Emergency Line: +91 8240271126
             </Button>
           </a>
         </div>
